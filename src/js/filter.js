@@ -6,7 +6,7 @@ import { localStorageAPI } from './api/localStorageAPI';
 import markupSearchPage from '../js/templates/markupHomePage.hbs';
 import { apiHomePage, getSearch } from './themovieApi';
 import { inputData } from './search-films';
-// import pagination from './pagin';
+
 import { paginationSettings } from './pagin';
 
 const btnReset = document.querySelector('#btnResetFilter');
